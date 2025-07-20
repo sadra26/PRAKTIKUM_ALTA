@@ -10,7 +10,7 @@ k = koneksi_ke_DB.cursor()
 k.execute("""
     DELETE FROM TBCars
     WHERE
-        id = 102
+        id = 101
 """)
 print(k.fetchall())
 

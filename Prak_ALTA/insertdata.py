@@ -15,10 +15,18 @@ k.execute("""
         model,
         price
     ) VALUES (
+        '101',
         'Red Car',
         'Honda',
-        'City',
+        'CRV',
         12000
+    ), 
+    (
+        '102',
+        'Black Car',
+        'Honda',
+        'City',
+        15000
     )
 """)
 
